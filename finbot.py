@@ -188,9 +188,4 @@ async def ask_question(request: QueryRequest):
         return {"response": response.content}
         
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Generation Error: {str(e)}")
-
-# Run the application
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, port=9000)
+        raise HTTPException(status_code=500, detail=f"Generation Error: {str(e)}"
