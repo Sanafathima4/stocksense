@@ -1,5 +1,4 @@
-from fastapi import FastAPI, HTTPException, Request
-from fastapi.staticfiles import StaticFiles
+from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import os
 import re
@@ -12,7 +11,6 @@ from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmb
 from langchain_community.vectorstores import FAISS
 from langchain_core.messages import HumanMessage, AIMessage
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import FileResponse
 
 # Load environment variables
 load_dotenv()
@@ -130,9 +128,10 @@ def calculate_bollinger_bands(prices, window=20, num_std=2):
     return sma + (std * num_std), sma - (std * num_std)
 
 # FastAPI application
+from fastapi import FastAPI
+
 app = FastAPI()
 
-# Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  # Allows all origins (replace with specific origins in production)
@@ -141,12 +140,6 @@ app.add_middleware(
     allow_headers=["*"],  # Allows all headers
 )
 
-# Serve static files (e.g., index.html)
-app.mount("/static", StaticFiles(directory="."), name="static")
-
-@app.get("/")
-async def read_root():
-    return FileResponse("index.html")
 
 class QueryRequest(BaseModel):
     query: str
@@ -188,4 +181,4 @@ async def ask_question(request: QueryRequest):
         return {"response": response.content}
         
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Generation Error: {str(e)}"
+        raise HTTPException(status_code=500, detail=f"Generation Error: {str(e)}")
