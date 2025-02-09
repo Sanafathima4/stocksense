@@ -1,0 +1,98 @@
+# Technical Analysis Knowledge Base
+
+## Core Principles
+1. Market Action Discounts Everything - All known information is reflected in price
+2. Prices Move in Trends - Up, down, or sideways
+3. History Tends to Repeat Itself - Patterns recur due to market psychology
+
+## Key Concepts
+- Support: Price level where buying interest overwhelms selling pressure
+- Resistance: Price level where selling pressure overwhelms buying interest
+- Trend: Directional movement (uptrend = higher highs/higher lows, downtrend = lower highs/lower lows)
+- Volume: Trading activity confirming price movements
+
+## Chart Types
+1. Line Charts: Basic closing price visualization
+2. Bar Charts: OHLC (Open-High-Low-Close) representation
+3. Candlestick Charts: Visual emotion indicator with wicks and bodies
+
+## Common Patterns
+
+### Reversal Patterns
+- Head and Shoulders: Trend reversal pattern with three peaks
+- Double Top/Bottom: M-shaped/W-shaped reversal formation
+- Rising/Falling Wedge: Converging trendlines signaling potential breakout
+
+### Continuation Patterns
+- Flags: Sharp move followed by consolidation
+- Pennants: Small symmetrical triangles after strong moves
+- Triangles (Ascending/Descending/Symmetrical): Consolidation before continuation
+
+## Key Indicators
+
+### Trend-Following
+1. Moving Averages:
+   - SMA (Simple Moving Average)
+   - EMA (Exponential Moving Average)
+   - Golden Cross (50EMA > 200EMA)
+   - Death Cross (50EMA < 200EMA)
+
+2. MACD (Moving Average Convergence Divergence):
+   - Composed of MACD line, signal line, and histogram
+   - Bullish crossover: MACD > Signal
+   - Bearish crossover: MACD < Signal
+
+### Momentum Oscillators
+1. RSI (Relative Strength Index):
+   - Range: 0-100
+   - Overbought (>70), Oversold (<30)
+   - Divergence signals potential reversals
+
+2. Stochastic Oscillator:
+   - %K and %D lines
+   - Identifies overbought/oversold conditions
+   - Bullish/bearish divergences
+
+### Volatility Indicators
+1. Bollinger Bands:
+   - SMA ± 2 standard deviations
+   - Band contraction = low volatility
+   - Band expansion = high volatility
+
+2. ATR (Average True Range):
+   - Measures market volatility
+   - Helps set stop-loss levels
+
+## Volume Analysis
+- Volume Spike: Often precedes major price moves
+- On-Balance Volume (OBV): Cumulative volume indicator
+- Volume Profile: Shows traded volume at specific price levels
+
+## Advanced Concepts
+1. Fibonacci Retracements:
+   - Key levels: 23.6%, 38.2%, 50%, 61.8%, 78.6%
+   - Used to identify potential support/resistance
+
+2. Elliott Wave Theory:
+   - 5-wave impulse moves + 3-wave corrections
+   - Fractal market patterns
+
+3. Market Profile:
+   - Time-price opportunities (TPOs)
+   - Value area identification
+
+4. Ichimoku Cloud:
+   - Tenkan-sen (Conversion Line)
+   - Kijun-sen (Base Line)
+   - Senkou Span (Leading Span)
+   - Chikou Span (Lagging Span)
+
+## Risk Management
+- Always use stop-loss orders
+- Risk-Reward ratio minimum 1:2
+- Position sizing based on account risk (1-2% per trade)
+
+## Limitations
+- Works best in trending markets
+- False signals common in choppy markets
+- Should be combined with fundamental analysis for long-term investing
